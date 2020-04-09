@@ -15,7 +15,6 @@ import EmailAuth2104Navigator from '../features/EmailAuth2104/navigator';
 import EmailAuth2103Navigator from '../features/EmailAuth2103/navigator';
 import EmailAuth2102Navigator from '../features/EmailAuth2102/navigator';
 import EmailAuth2101Navigator from '../features/EmailAuth2101/navigator';
-import EmailAuthNavigator from '../features/EmailAuth/navigator';
 
 /**
  * new navigators can be imported here
@@ -36,7 +35,6 @@ EmailAuth2104: { screen: EmailAuth2104Navigator },
 EmailAuth2103: { screen: EmailAuth2103Navigator },
 EmailAuth2102: { screen: EmailAuth2102Navigator },
 EmailAuth2101: { screen: EmailAuth2101Navigator },
-EmailAuth: { screen: EmailAuthNavigator },
 
     /** new navigators can be added here */
 };
